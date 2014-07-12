@@ -28,9 +28,6 @@ The purpose of the SmxSimple_Meetings library is to provide a simple and consist
 Below is the initial list of service providers we intend to support with this library. It is our hope that by developing this library as open source that additional service providers or developers will extend the functionality.
 
 1. WebEx Meeting Center [COMPLETE]
-2. Citrix GoToMeeting [90% Complete - Missing create/edit user features. Need an admin account to dev/test with.]
-3. BigBlueButton [COMPLETE]
-4. Join.Me [COMPLETE] - Note that this is a very basic service with limited functionality and an even more limited API.
 
 <a name='section_Todo'></a>
 ## Improvement Ideas / TODO ##
@@ -46,7 +43,7 @@ You have at least three options for how to instal Smx\SimpleMeetings. The first 
 <a name='section_Composer'></a>
 ### Installation - Using Composer ###
 If you have never used composer, check it out at http://getcomposer.org/. It provides a simple way for you to define your requirements, run a command, and have it automatically download and install any dependencies.
-Since the installation of Composer is so simple, I'll provide the full instructions of installing Composer and using it to install Smx\SimpleMeetings.
+Since the installation of Composer is so simple, I'll provide the full instructions of installing Composer and using it to install poldotz\cisco_webex_meeting.
 Installing Composer, from the root directory of your project, run:
 ````
 curl -s https://getcomposer.org/installer | php
@@ -56,7 +53,7 @@ Next, create a composer.json file with contents:
 ````json
 {
     "require": {
-        "poldotz/simplemeetings": "dev-master"
+        "poldotz/cisco_webex_meeting": "dev-master"
     }
 }
 ````
@@ -76,7 +73,7 @@ If you dont want to use Composer, you can simply clone the repository. If you ar
 When cloning the repository you want to also make sure to checkout the latest tag to ensure you have a stable copy:
 ````
 $ git clone git://github.com/fillup/Smx_Simple_Meetings.git
-Cloning into 'Smx_Simple_Meetings'...
+Cloning into 'poldotz_cisco_webex_meeting'...
 ...
 Resolving deltas: 100% (84/84), done.
 $ cd Smx_Simple_Meetings/
