@@ -1,4 +1,4 @@
-smx/simplemeetings
+poldotz/simplemeetings
 ===================
 
 ## Brief Description ##
@@ -56,7 +56,7 @@ Next, create a composer.json file with contents:
 ````json
 {
     "require": {
-        "smx/simplemeetings": "dev-master"
+        "poldotz/simplemeetings": "dev-master"
     }
 }
 ````
