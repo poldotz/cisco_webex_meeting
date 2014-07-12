@@ -2,7 +2,7 @@ poldotz/cisco_webex_meeting
 ===================
 
 ## Brief Description ##
-Class library and abstraction layer for integrating with web meetings providers such as WebEx and Citrix.
+Class library and abstraction layer for integrating with Cisco WebEx.
 
 ## Table Of Contents ##
    * [Purpose](#section_Purpose)
