@@ -1,5 +1,5 @@
 {
-    "name": "smx/simplemeetings",
+    "name": "poldotz/cisco_webex_meeting",
     "description": "Simple and abstracted library for integrating with web meetings providers such as WebEx and Citrix.",
     "type": "library",
     "keywords": [
